@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Eventos.Domain\Eventos.Domain.csproj" />
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
+    <ProjectReference Include="..\Eventos.Domain\Eventos.Domain.csproj" />
+	  <ProjectReference Include="..\Eventos.Infra.Data\Eventos.Infra.Data.csproj" />
   </ItemGroup>
-
 </Project>
