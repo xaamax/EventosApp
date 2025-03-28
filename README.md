@@ -1,0 +1,2 @@
+# EventosApp
+Gerenciamento de Eventos.
